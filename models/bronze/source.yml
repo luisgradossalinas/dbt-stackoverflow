@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-  - name: bronze
+  - name: stackoverflow
     schema: stackoverflow
     tables:
       - name: badges

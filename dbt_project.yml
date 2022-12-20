@@ -35,7 +35,7 @@ models:
   project_dbt_ae:
     silver:
       materialized: table
-      +schema: silver
+      schema: silver
     gold:
       materialized: table
-      +schema: gold
+      schema: gold

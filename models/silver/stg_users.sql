@@ -6,7 +6,7 @@ with source as (
   website_url,
   round(timestamp_diff(current_timestamp(), creation_date, day)/365) as user_tenure
 from
- {{ source('bronze', 'users') }}
+ {{ source('stackoverflow', 'users') }}
 )
 
 select * from source
